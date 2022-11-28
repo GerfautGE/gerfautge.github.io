@@ -3,7 +3,7 @@ import style from "./App.module.scss";
 function App() {
   return (
     <div className={style.App}>
-      <h1>Hello World ! 🚀</h1>
+      <h1>{"const Hello World = ()=>{return 🚀}"}</h1>
     </div>
   );
 }
