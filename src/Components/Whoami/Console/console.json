@@ -1,4 +1,5 @@
 {
     "whoami": "GerfautGE aka \"Gerf\" or 0xGerfaut\n - french 🇫🇷, 22yo 🎂, Paris 📍\n - interested in web development, cybersecurity, reverse engineering, and more\n - currently learning C, C++, and more\n - I'm a beginner in programming, but I'm trying to learn as much as I can",
-    "sudo su" : "root"
+    "sudo su" : "root",
+    "clear": ""
 }
