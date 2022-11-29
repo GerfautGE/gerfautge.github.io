@@ -1,0 +1,13 @@
+@import "/src/variables.scss";
+
+.menu{
+    float: right;
+    display: flex;
+    margin-left: auto;
+}
+
+.menu > ul{
+    margin: 1em;
+    flex-direction: row;
+    cursor: pointer;
+}
