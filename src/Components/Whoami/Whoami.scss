@@ -15,6 +15,7 @@ img{
     border-radius: 50%;
     margin: 1em;
     transition: ease-in-out 0.5s;
+    pointer-events: none;
 }
 
 img:hover{
