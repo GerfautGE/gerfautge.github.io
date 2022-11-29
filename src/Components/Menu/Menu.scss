@@ -1,0 +1,24 @@
+@import "/src/variables.scss";
+
+.menu{
+    float: right;
+    display: flex;
+    margin-left: auto;
+}
+
+.menu > ul{
+    margin: 1em;
+    flex-direction: row;
+    cursor: pointer;
+}
+.menu > ul:hover{
+    margin: 1em;
+    font-weight: bold;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}

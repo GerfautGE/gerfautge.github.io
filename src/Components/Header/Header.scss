@@ -1,0 +1,9 @@
+@import "/src/variables.scss";
+
+.header{
+    padding: 1em;
+    position: sticky;
+    font-family: $font-primary;
+    background-color: $primary;
+    display: flex;
+}

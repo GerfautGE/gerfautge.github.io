@@ -1,9 +1,11 @@
-import style from "./App.module.scss";
+import Header from "./Components/Header/Header";
+import Whoami from "./Components/Whoami/Whoami";
 
 function App() {
   return (
-    <div className={style.App}>
-      <h1>{"const Hello World = ()=>{return 🚀}"}</h1>
+    <div>
+      <Header />
+      <Whoami />
     </div>
   );
 }
