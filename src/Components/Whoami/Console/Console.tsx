@@ -35,7 +35,7 @@ function Console() {
             <span className="dot" style={{backgroundColor: '#FFBD2D'}}></span>
             <span className="dot" style={{backgroundColor: '#2CCC42'}}></span>
             <form onSubmit={handleSubmit}>
-                gerfautge@github.io $ <input type="text" id='Console-input' placeholder='whoami' autoComplete='off' autoCorrect='off' value={text} onChange={handleChange} onSubmit={handleSubmit} />
+                gerfautge@github.io $ <input type="text" id='Console-input' placeholder='whoami' autoComplete='off' autoCorrect='off' value={text} onChange={handleChange} onSubmit={handleSubmit} autoFocus/>
             </form>
             <p className='answer'>
                 {answer}
