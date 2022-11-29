@@ -1,0 +1,41 @@
+@import '/src/variables.scss';
+
+.console{
+    width: 75%;
+    height: auto;
+    background-color: $console-background;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    font-family: $font-primary;
+    font-weight: 500;
+    white-space: pre-wrap;
+}
+
+#Console-input{
+    border: none;
+    background-color: $console-background;
+    justify-content: baseline;
+    font-family: $font-primary;
+    font-weight: 200;
+    font-size: 1em;
+}
+
+#Console-input:focus{
+    outline: none;
+}
+
+.dot {
+    height: 0.7em;
+    width: 0.7em;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.2em;
+    margin-bottom: 0.4em;
+  }
+
+.answer{
+    font-family: $font-primary;
+    font-weight: 200;
+    font-size: 1em;
+}
