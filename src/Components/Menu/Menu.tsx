@@ -3,9 +3,9 @@ import "./Menu.scss"
 function Menu(){
     return (
         <div className="menu">
-            <ul>Whoami</ul>
-            <ul>Projects</ul>
-            <ul>Contact</ul>
+            <ul><a href="#">Whoami</a></ul>
+            <ul><a href="#">Projects</a></ul>
+            <ul><a href="#">Contact</a></ul>
         </div>
     )
 }
