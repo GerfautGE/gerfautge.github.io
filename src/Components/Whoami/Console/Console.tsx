@@ -8,14 +8,14 @@ function Console() {
 
     //parse json file
     const answers = require('./console.json');
-
+    
     //functions
     const handleChange = (e: any) => {
         setText(e.target.value);
     }
 
     const response = (text: string) =>{
-        if(answers[text]){
+        if(answers[text] || answers[text] === ''){
             setAnswer(answers[text]);
         }else{
             setAnswer('Command not found');
