@@ -1,0 +1,39 @@
+@import "/src/variables.scss";
+
+h3 {
+  padding-left: 0em;
+  padding-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+Canvas {
+  background-color: $console-background;
+  border-radius: 1em;
+}
+
+.donut__content {
+  display: flex;
+}
+
+.canvas{
+    width: 30em;
+    height: 20em;
+    flex-direction: row;
+}
+
+.donut {
+  padding-left: 3em;
+}
+
+.code_image {
+  background-color: $console-background;
+  border-radius: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.code_image > img {
+  width: 17em;
+  height: auto;
+}
