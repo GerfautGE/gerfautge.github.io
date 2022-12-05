@@ -40,3 +40,4 @@ node_modules
 
 #build
 build
+.DS_Store
