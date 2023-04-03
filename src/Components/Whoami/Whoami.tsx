@@ -9,7 +9,7 @@ function Whoami() {
             <h2>Whoami</h2>
             <div className="whoami__content">
                 <Console/>
-                <img src={gerf} alt="gerf.png"/>
+                <img src={gerf} alt="gerf.png" className='profile_picture'/>
             </div>
         </div>
     )
