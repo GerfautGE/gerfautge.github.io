@@ -9,7 +9,7 @@ h2{
     flex-direction: row;
 }
 
-img{
+.profile_picture{
     width: 10em;
     height: 10em;
     border-radius: 50%;
@@ -18,7 +18,7 @@ img{
     pointer-events: none;
 }
 
-img:hover{
+.profile_picture:hover{
     transform: scale(1.1);
     transition: ease-in-out 0.5s;
 }
