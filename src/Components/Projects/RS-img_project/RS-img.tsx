@@ -1,4 +1,3 @@
-import './RS-img.scss';
 import comp from './Comparaison.png';
 import complex from './Complexity.png';
 
